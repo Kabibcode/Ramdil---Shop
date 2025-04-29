@@ -1,0 +1,203 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff5f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffd9e8;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px;
+  background-color: #ffeef8;
+}
+
+#produits {
+  padding: 20px;
+}
+
+.produit {
+  border: 1px solid #ffc0cb;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+footer {
+  background-color: #ffd9e8;
+  text-align: center;
+  padding: 10px;
+}
+#localisation {
+  padding: 20px;
+  background-color: #ffeaf2;
+  text-align: center;
+}
+.btn-whatsapp {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebe5d;
+}
+.filtre-age {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filtre-age a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 15px;
+  background-color: #ffe4e1;
+  color: #333;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.filtre-age a:hover {
+  background-color: #ffc0cb;
+}
+
+#bebe, #petits, #grands, #plus grands {
+  margin-top: 30px;
+}
+/* Menu fixe en haut */
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffb6c1;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.menu a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: #333;
+}
+
+/* Pour éviter que le contenu passe sous le menu */
+body {
+  padding-top: 70px;
+}
+.accueil {
+  background-image: url('https://images.pexels.com/photos/3661359/pexels-photo-3661359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.banniere {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.banniere h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.banniere p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-voir {
+  padding: 10px 20px;
+  background-color: #ff89a9;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-voir:hover {
+  background-color: #ff6d95;
+}
+.contact {
+  background-color: #fce4ec;
+  padding: 40px 20px;
+  text-align: center;
+  color: #333;
+}
+
+.contact h2 {
+  color: #e91e63;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.localisation {
+  background-color: #fff0f5;
+  padding: 40px 20px;
+  text-align: center;
+  color: #333;
+}
+
+.localisation h2 {
+  color: #e91e63;
+  margin-bottom: 15px;
+}
+
+.map-container {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.btn-itineraire {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ff4081;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-itineraire:hover {
+  background-color: #e91e63;
+}
